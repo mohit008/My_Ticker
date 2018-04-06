@@ -56,8 +56,8 @@ public class MainActivity extends AppCompatActivity implements GetClick{
                 int visibleItemCount = manager.getChildCount();
                 int totalItemCount = manager.getItemCount();
                 int pastVisiblesItems = manager.findFirstVisibleItemPosition();
-                Log.i("index", visibleItemCount + ":" + totalItemCount + ":"
-                        + pastVisiblesItems + ":" + manager.findLastVisibleItemPosition());
+//                Log.i("index", visibleItemCount + ":" + totalItemCount + ":"
+//                        + pastVisiblesItems + ":" + manager.findLastVisibleItemPosition());
                 update(manager.findLastVisibleItemPosition());
             }
         });
