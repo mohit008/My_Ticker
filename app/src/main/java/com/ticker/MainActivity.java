@@ -95,7 +95,7 @@ public class MainActivity extends AppCompatActivity implements GetClick{
                     }
                 });
             }
-        }, 0, 100);
+        }, 0, 50);
     }
 
     /**
